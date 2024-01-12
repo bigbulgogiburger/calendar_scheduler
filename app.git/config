@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = http://121.138.148.198/root/app
+	fetch = +refs/*:refs/*
+	mirror = true
+	pushurl = http://gitlab.surinservice.co.kr/surin/app.git
+[http]
+	postBuffer = 524288000
